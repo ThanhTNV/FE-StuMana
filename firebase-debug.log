@@ -1,0 +1,46 @@
+[debug] [2024-12-14T05:59:47.943Z] ----------------------------------------------------------------------
+[debug] [2024-12-14T05:59:47.945Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-12-14T05:59:47.945Z] CLI Version:   13.29.1
+[debug] [2024-12-14T05:59:47.945Z] Platform:      win32
+[debug] [2024-12-14T05:59:47.945Z] Node Version:  v20.18.0
+[debug] [2024-12-14T05:59:47.945Z] Time:          Sat Dec 14 2024 12:59:47 GMT+0700 (Indochina Time)
+[debug] [2024-12-14T05:59:47.945Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-14T05:59:47.949Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-14T05:59:47.949Z] > authorizing via signed-in user (thanhtran190304@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\FE-Projects\StudentManagement
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-12-14T06:01:26.457Z] Checked if tokens are valid: true, expires at: 1734159579311
+[debug] [2024-12-14T06:01:26.457Z] Checked if tokens are valid: true, expires at: 1734159579311
+[debug] [2024-12-14T06:01:26.459Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-12-14T06:01:27.107Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-12-14T06:01:27.107Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project studentmanagement-f3ac9 (StudentManagement) 
+[info] 
+=== Hosting Setup
+[debug] [2024-12-14T06:02:21.013Z] Checked if tokens are valid: true, expires at: 1734159579311
+[debug] [2024-12-14T06:02:21.013Z] Checked if tokens are valid: true, expires at: 1734159579311
+[debug] [2024-12-14T06:02:21.013Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/studentmanagement-f3ac9 [none]
+[debug] [2024-12-14T06:02:21.611Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/studentmanagement-f3ac9 200
+[debug] [2024-12-14T06:02:21.612Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/studentmanagement-f3ac9 {"projectId":"studentmanagement-f3ac9","projectNumber":"828700306166","displayName":"StudentManagement","name":"projects/studentmanagement-f3ac9","resources":{"hostingSite":"studentmanagement-f3ac9"},"state":"ACTIVE","etag":"1_2712318f-c0e2-42bc-a608-5b5711ac8245"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
